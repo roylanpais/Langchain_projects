@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 
 from pathlib import Path
-dotenv_path = Path('D:\Coding\langchain gen ai\langchain_projects\Langchain_projects\.env')
+dotenv_path = Path('D:\Coding\.env')
 load_dotenv(dotenv_path=dotenv_path)
 import streamlit as st
 GROQ_API_KEY = os.getenv('groq_api_key')
